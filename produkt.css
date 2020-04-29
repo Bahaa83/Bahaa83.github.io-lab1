@@ -1,0 +1,612 @@
+/*
+           =====================
+               Public Style
+           =====================
+*/
+
+
+
+* , *:after , *:before
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .container
+{
+  width:85%; 
+   margin: auto;
+}
+
+/*
+           =====================
+               Header Style
+           =====================
+*/
+header
+{
+    background-color: #7401DF; 
+    height: 90px;
+}
+.logo
+{
+    float: left;
+    margin-top: 15px;
+    width:70%;
+   
+}
+ .logo-text
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFBF00;
+}
+.ul-list
+{
+    float: left;
+    width:30%;
+    list-style: none;
+     margin-top: 17px;
+    
+    
+}
+.list-item
+{
+   display: inline-block; 
+}
+.list-item > a
+{
+   text-decoration: none; 
+    color:#FFBF00;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+     font-weight: bold;
+}
+.list-item a:hover
+{
+    color: white;
+}
+/*
+           =====================
+              Main Style
+           =====================
+*/
+main
+{
+    height: auto;
+    background-color: white;
+     
+   
+}
+main .container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr ;
+    margin: 50px;
+    grid-gap: 20px 20px;
+   
+}
+main .container>div
+{
+    border: 2px solid gray;
+    height: 200px;
+    background-position:center;
+    background-size:cover;
+    
+}
+.container .samhalle h3
+{
+   color: white;
+}
+
+main .container div>*
+{
+    margin: 35px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+main .container div>input
+{
+    color: yellow;
+    background-color: #7401DF;
+    color:#FFBF00;
+    border-radius: 4px;
+    padding: 8px;
+    border: 2px solid ;
+     width: 90px;
+   
+   
+}
+main .container div>input:hover
+{
+    background-color:  #FFBF00;
+  
+    color: #7401DF;                
+   
+   
+}
+
+main .container div>h3
+{
+    padding: 10px;
+    color: red;
+    font-size: 25px;
+    
+}
+ main .container .barn
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image:url(images/240_F_240042313_ZHrMKnfY96CD454hyfsPighJ9ZehQgSp.jpg);
+    
+}
+ main .container .ekonomi
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image:url(images/240_F_340329166_xTdYe4yq7KntOpS4xaH4BFwxLCGPrpKf.jpg);
+    
+}
+ main .container .halsa
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(images/medical-appointment-doctor-healthcare-40568.jpg);
+}
+ main .container .Science
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+        background-image:url(images/240_F_320337582_twhohnwKuz5vmDdNdwjMESPSEHNvZ19J.jpg);
+
+}
+ main .container .samhalle
+{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image:url(images/pexels-photo-461049.jpg)
+}
+ main .container .politik
+{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image:url(images/pexels-photo-1550337.jpg)
+    
+}
+ main .container .sprak
+{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-image:url(images/240_F_249205324_jwdxYTcOCkWW5Qy86Wh8qjcIngocdyaC.jpg)
+}
+
+
+/*
+           ==================================
+              delivery payments section Style
+           ==================================
+*/
+
+
+.delivery-payments-section
+{
+    background-color: #FFBF00;  
+
+    height: 75px;
+   
+   
+}
+ .delivery-content
+{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+ .delivery-content .delivery i
+{
+     margin : 25px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #7401DF;  
+}
+.delivery-content .delivery  i .fas fa-truck
+{
+    padding: 15px;
+                  
+
+}
+
+.payments>*{float:left;}
+
+.payments h3
+{
+    
+     margin : 25px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #7401DF;  
+
+   
+}
+
+.payments i
+{
+   
+    margin-left: 10px;
+    padding: 25px;
+    color: #7401DF;
+    font-size: 30px;
+}
+
+
+/*
+           =====================
+               Footer Style
+           =====================
+*/
+
+footer .container
+{
+    
+   background-color: #7401DF;
+ 
+    border-top:3px solid gray;
+     
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+    
+.input-button>*
+{
+    display:inline-block;
+}
+.input-button .-input input
+{
+    width:200px;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    padding: 8px;
+    
+    
+}
+.input-button .-button input
+{
+    border-radius: 4px;
+    padding: 8px;
+    border: 2px solid yellow;
+    width:75px;
+    font-weight: bold;
+    color:  white;
+    background-color: #2EFE2E;
+
+}
+
+.tom1
+{
+    grid-column: 1/2;
+}
+.tom2
+{
+    grid-column: 5/6;
+}
+.infor1
+{
+     grid-column: 2/3;
+   
+    
+}
+.infor1 h1
+{
+     margin: 30px;
+    color: #F7FE2E;
+    
+}
+
+.infor1 p
+{
+    font-size: 18px;
+     padding: 4px;
+    color: #F7FE2E;
+}
+
+
+.infor2
+{
+     grid-column: 3/4;
+   
+}
+.infor2 h1
+{
+      margin: 20px;
+    color: #F7FE2E;
+}
+.infor2 h3
+{
+      margin: 30px;
+    margin-left: 20px;
+    color: #F7FE2E;
+}
+
+.infor3
+{
+     grid-column: 4/5;
+}
+
+.infor3 h1
+{
+      margin: 20px;
+    color: #F7FE2E;
+}
+.infor3 h3
+{
+      margin: 30px;
+    margin-left: 20px;
+    color: #F7FE2E;
+}
+.infor3>h3
+{
+    display: inline-block;
+}
+.infor3>i
+{
+    padding: 10px;
+    font-size: 25px;
+    background-color: #F7FE2E;
+    
+}
+
+
+/*
+           =======================
+            @ Media  Header Style
+           =======================
+*/
+@media (max-width:767px)
+{
+
+    .logo
+{
+    float: none;
+    
+    width:100%;
+   
+}
+    
+    .ul-list
+{
+     float: none;
+     width:100%;  
+    
+}
+    .list-item
+{
+   display: block; 
+}
+    header
+{
+ overflow: hidden;
+height: 200px;
+}
+    
+
+}
+/*
+           =====================
+            @ Media  Main Style
+           =====================
+*/
+
+
+@media (max-width:500)
+{
+  main .container
+    {
+        display:block;
+        
+    }
+    main .container>div
+    {
+        margin-bottom: 10px;
+    }
+ 
+}
+/*
+           ==========================================
+            @ Media   delivery payments section Style
+           ==========================================
+*/
+
+
+ @media  (max-width:1000px)
+ {
+
+     
+.delivery-content .delivery i
+{
+          float: none; margin : 0;
+           margin-left: 0;
+          font-size: 15px;
+}
+
+     
+.payments>*
+{
+         float:none;
+}
+  
+.payments h3
+{
+    
+     margin : 0;
+    margin-left: 10px;
+    font-size: 15px;
+  
+   
+}
+   .payments i
+{
+   
+    margin-left: 0px;
+    padding: 10px;
+   
+    font-size: 20px;
+} 
+  
+    
+
+}
+
+
+/*
+           ==============================================================
+            @ Media   delivery payments section Style (max-width: 1600px)
+           ==============================================================
+*/
+ @media  (min-width: 1001px) and (max-width: 1600px)
+ {
+
+
+
+ .delivery-content .delivery i
+{
+     margin : 18px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: #7401DF;  
+}
+.delivery-content .delivery  i .fas fa-truck
+{
+    padding: 10px;
+                  
+
+}
+
+
+
+.payments h3
+{
+    
+     margin : 18px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: #7401DF;  
+
+   
+}
+
+.payments i
+{
+   
+    margin-left: 10px;
+    padding: 20px;
+    color: #7401DF;
+    font-size: 20px;
+}
+
+     
+}
+/*
+           =======================
+             @media   Footer 
+           =======================
+*/
+
+ @media  (max-width: 1000px)
+ {
+    
+     footer .container>div
+     {
+         border: 2px solid yellow;
+     }
+     
+.infor3 h1
+{
+      margin: 6px;
+   
+}
+.infor3 h3
+{
+      margin: 6px;
+    margin-left: 5px;
+    
+}
+.infor3>h3
+{
+    display: inline-block;
+}
+.infor3>i
+{
+    padding: 5px;
+    font-size: 10px;
+  
+    
+}
+     .infor2 h1
+{
+      margin: 10px;
+   
+}
+.infor2 h3
+{
+      margin: 10px;
+    margin-left: 5px;
+    
+}
+     .infor1 h1
+{
+     margin: 10px;
+   
+    
+}
+
+.infor1 p
+{
+    font-size: 15px;
+     padding: 1px;
+    
+}
+     
+}
+ @media  (max-width: 500px)
+ {
+     footer .container
+{
+    
+    
+    display: block;
+   
+    grid-template-columns: 1fr 1fr  ;
+    
+}
+     footer .container>div
+     {
+         border: 2px solid yellow;
+     }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
